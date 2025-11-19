@@ -87,8 +87,8 @@ public class Constants {
     public static Integer PERCENTAGE_PIPELINE_FSL = 5;
     public static String PROJECT_ROOT_DIR = Paths.get(Paths.get(".").toString()).toAbsolutePath().normalize().toString();
     public static String EVALUATION_DB = Paths.get(PROJECT_ROOT_DIR, "eval_dataset.json").toString();
-    public static String FSL_DB = Paths.get(PROJECT_ROOT_DIR, "fsl_dataset.json").toString();
-    public static String FSL_FOR_FINE_TUNING_DB = Paths.get(PROJECT_ROOT_DIR, "fsl_for_ft_dataset.json").toString();
+    public static String FSL_DB = Paths.get(PROJECT_ROOT_DIR, "icl_dataset.json").toString();
+    public static String FSL_FOR_FINE_TUNING_DB = Paths.get(PROJECT_ROOT_DIR, "icl_for_ft_dataset.json").toString();
     public static String FINE_TUNING_TRAINING_DB = Paths.get(PROJECT_ROOT_DIR, "ft_training_dataset.json").toString();
     public static String FINE_TUNING_VALIDATION_DB = Paths.get(PROJECT_ROOT_DIR, "ft_validation_dataset.json").toString();
 
