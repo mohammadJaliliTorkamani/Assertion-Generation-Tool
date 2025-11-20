@@ -19,7 +19,7 @@ public class UnitTestExecutionResult {
         this.message = message;
         this.testName = test.getMethodDeclaration().getNameAsString();
         this.testPath = test.getPath().toString();
-        this.covered = componentResponse != null && hasFlag(componentResponse.getMessage(), Constants.ASSERTRON_COVERAGE_FLAG_MESSAGE);
+        this.covered = componentResponse != null && hasFlag(componentResponse.getMessage(), Constants.ASSERTION_COVERAGE_FLAG_MESSAGE);
         this.directlyCallsTargetMethod = directlyCallsTargetMethod;
     }
 

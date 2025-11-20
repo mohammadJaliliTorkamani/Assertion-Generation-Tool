@@ -228,7 +228,7 @@ public class EvaluationResult {
                 featureList.add(originalAssertionFeature);
 
                 MethodDeclaration augmentedMethod = StaticJavaParser.parseMethodDeclaration(AssertionFeature.embedAssertionAndReturnMethod(Parser.printMethod(StaticJavaParser.parseMethodDeclaration(tidyMethod), false, true, true), featureList));
-                MethodDeclaration augmentedFlaggedMethod = StaticJavaParser.parseMethodDeclaration(DynamicSemanticChecker.addAssertronFlag(augmentedMethod));
+                MethodDeclaration augmentedFlaggedMethod = StaticJavaParser.parseMethodDeclaration(DynamicSemanticChecker.addAssertionFlag(augmentedMethod));
 
                 String originalContent = parser.getCompilationUnit(true).toString(configuration);
 

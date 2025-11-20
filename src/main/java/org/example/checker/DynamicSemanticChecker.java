@@ -27,12 +27,12 @@ import static org.example.Constants.REPO_JAVA_ADDRESS_MAP;
 
 public class DynamicSemanticChecker implements Checker {
 
-    public static String addAssertronFlag(MethodDeclaration augmentedMethod) throws Exception {
+    public static String addAssertionFlag(MethodDeclaration augmentedMethod) throws Exception {
         MethodDeclaration _methodDeclaration = StaticJavaParser.parseMethodDeclaration(Parser.addCurlyBraces(augmentedMethod.toString()));
         // Check for assert statements in the method
         _methodDeclaration.findAll(AssertStmt.class).forEach(assertStmt -> {
             NodeList nodeList = new NodeList();
-            nodeList.add(new StringLiteralExpr(Constants.ASSERTRON_COVERAGE_FLAG_MESSAGE));
+            nodeList.add(new StringLiteralExpr(Constants.ASSERTION_COVERAGE_FLAG_MESSAGE));
             // Create a System.out.println statement before the assert
             ExpressionStmt soutStmt = new ExpressionStmt(
                     new MethodCallExpr(
@@ -85,7 +85,7 @@ public class DynamicSemanticChecker implements Checker {
             configuration.setIndentType(Indentation.IndentType.TABS);
             configuration.setIndentSize(1);
             MethodDeclaration augmentedMethod = StaticJavaParser.parseMethodDeclaration(assertionFeature.embedAssertionAndReturnMethod(parser.getRecord()));
-            MethodDeclaration augmentedFlaggedMethod = StaticJavaParser.parseMethodDeclaration(addAssertronFlag(augmentedMethod));
+            MethodDeclaration augmentedFlaggedMethod = StaticJavaParser.parseMethodDeclaration(addAssertionFlag(augmentedMethod));
 
             String originalContent = parser.getCompilationUnit(true).toString(configuration);
 

@@ -72,7 +72,7 @@ public class Constants {
             {JAVA_HOME_VERSION_23, JAVA_HOME_VERSION_17, JAVA_HOME_VERSION_8, JAVA_HOME_VERSION_21};
     public static final String MVN_BINARY_PATH = "mvn";
     public static final Map<String, String> REPO_JAVA_ADDRESS_MAP = new HashMap<>();
-    public static final String ASSERTRON_COVERAGE_FLAG_MESSAGE = "!@# ASSERTRON - 2025 #@!";
+    public static final String ASSERTION_COVERAGE_FLAG_MESSAGE = "!@# ASSERTION - 2025 #@!";
     public static final int MAXIMUM_NUMBER_OF_UNIT_TESTS_PER_RECORD = 10;
     public static final int STAR_THRESHOLD_PERCENTILE = 50;
     public static final int EVALUATION_DATASET_UPPER_LIMIT_SIZE = 100;

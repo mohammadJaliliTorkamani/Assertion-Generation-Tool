@@ -9,7 +9,7 @@ app = FastAPI()
 import os
 
 # Remove the file
-tmp_file_name = 'ASSERTRON_TMP_FILE.txt'
+tmp_file_name = 'ASSERTION_TMP_FILE.txt'
 if os.path.exists(tmp_file_name):
     os.remove(tmp_file_name)
     print(f"File '{tmp_file_name}' has been removed.")

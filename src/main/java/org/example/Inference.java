@@ -133,7 +133,7 @@ public class Inference {
         double presencePenalty = config.getPresence_penalty();
         // Set environment variables
         String envVars = "export MODEL=" + modelName + " && " +
-                "export ASSERTRON_TYPE=" + (operation.equals(LLM_Operation.EMBEDDING) ? "embedding" : "generate") + " && " +
+                "export ASSERTION_TYPE=" + (operation.equals(LLM_Operation.EMBEDDING) ? "embedding" : "generate") + " && " +
                 "export SYSTEM_PATH=" + systemPromptFilePath + " && " +
                 "export USER_PATH=" + userPromptFilePath + " && " +
                 "export ASSISTANT_PATH=" + assistantPromptFilePath + " && " +
@@ -167,7 +167,7 @@ public class Inference {
         // Set environment variables
         String envVars = String.format(
                 "export MODEL=%s && " +
-                        "export ASSERTRON_TYPE=embedding && " +
+                        "export ASSERTION_TYPE=embedding && " +
                         "export IS_BATCH=true && " +
                         "export SYSTEM_PATH=%s && " +
                         "export API_KEY=%s && " +

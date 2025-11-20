@@ -6,7 +6,7 @@ import static org.example.Constants.LLM_REQUEST_TRIAL_NUMBER;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Assertron start date/time: "+Utils.getCurrentDateTime()+"\n");
+        System.out.println("Assertion start date/time: "+Utils.getCurrentDateTime()+"\n");
         Constants.Stage STAGE = Constants.Stage.PIPELINE;
 
         Utils.createDirIfNotExists(Paths.get(Constants.PROJECT_ROOT_DIR, Constants.ORIGINAL_DOWNLOADED_REPOSITORIES_RESERVOIR_DIRECTORY_NAME).toString());
@@ -134,6 +134,6 @@ public class Main {
 //                     Pair.of(Constants.Experiment_ID.D, Constants.FINE_TUNING_VALIDATION_DB_JSONL_D)
 //            );
         }
-        System.out.println("\nAssertron end date/time: "+Utils.getCurrentDateTime()+"\n");
+        System.out.println("\nAssertion end date/time: "+Utils.getCurrentDateTime()+"\n");
     }
 }

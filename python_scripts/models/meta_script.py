@@ -40,7 +40,7 @@ def main():
     model = os.getenv("MODEL")
     api_key = os.getenv("API_KEY")
     url = os.getenv("URL")
-    is_embedding = os.getenv("ASSERTRON_TYPE", "generate") == "embedding"
+    is_embedding = os.getenv("ASSERTION_TYPE", "generate") == "embedding"
     is_batch = os.getenv("IS_BATCH", "false").lower() == "true"
     trial_number = int(os.getenv("TRIAL_NUMBER", 3))
     frequency_penalty = float(os.getenv("FREQUENCY_PENALTY", -1))
