@@ -1,0 +1,115 @@
+{
+  "size" : 60,
+  "timeStamp" : "2025_09_17_09_40",
+  "experiment" : "D",
+  "llmConfig" : {
+    "temperature" : 1.0,
+    "top_p" : 1.0,
+    "presence_penalty" : 0.0,
+    "frequency_penalty" : 0.0,
+    "model" : "LLAMA_2_FINE_TUNED_ON_D"
+  },
+  "numberOfAssertionFulRecord" : 59.0,
+  "numberOfAssertionLessRecord" : 1.0,
+  "totalNumberOfMavenRecords" : 55.0,
+  "totalNumberOfGradleRecords" : 5.0,
+  "numberOfRecordsWithSyntacticallyIncorrectInferences" : 0.0,
+  "numberOfRecordsWithStaticSemanticallyIncorrectInferences" : 26.333333333334,
+  "numberOfRecordsWithStaticSemanticallyIncorrectInferences_UNREACHABLE" : 0.0,
+  "numberOfRecordsWithStaticSemanticallyIncorrectInferences_OTHER_FAILURES" : 26.333333333334,
+  "numberOfRecordsWithFailedUnitTestInferences" : 34.333333333334,
+  "totalNumberOfInferredAssertions" : 302.0,
+  "totalNumberOfPickedAssertions" : 141.66666666666666,
+  "totalNumberOfExecutedUnitTests_covered" : 247.66666666666666,
+  "totalNumberOfExecutedUnitTests_uncovered" : 241.0,
+  "totalNumberOfPassedUnitTests_covered" : 200.33333333333334,
+  "totalNumberOfPassedUnitTests_uncovered" : 211.0,
+  "totalNumberOfFailedUnitTests_covered" : 47.333333333333336,
+  "totalNumberOfFailedUnitTests_uncovered" : 30.0,
+  "syntacticErrorWeightedAverage" : 1.0,
+  "staticSemanticErrorWeightedAverage" : 0.5451640203791134,
+  "dynamicSemanticErrorWeightedAverage" : 0.6995228036110783,
+  "averageUTP" : 0.6191641471403376,
+  "averageOfAverageLengthOfAssertions_predicted" : 37.751773431594856,
+  "averageOfAverageLengthOfAssertions_gt" : 44.00621468926554,
+  "averageGenerationTime" : 47178.74444444445,
+  "averageACDT" : 0.6666666666667,
+  "averageScorePack" : {
+    "rougeLAverageScore" : {
+      "rouge_L_averageF" : 0.48058486561339625,
+      "rouge_L_averageP" : 0.5122109425566327,
+      "rouge_L_averageR" : 0.5135852485501813,
+      "referenceSummary" : null,
+      "candidateSummary" : null
+    },
+    "jaccardAverageScore" : {
+      "similarity" : 0.5974544342442395,
+      "referenceSummary" : null,
+      "candidateSummary" : null
+    }
+  },
+  "variableLevelDualMetric" : {
+    "cr" : {
+      "score" : 1.0124047943744028,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    },
+    "csi" : {
+      "csi_Score" : 0.41957772458941367,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    }
+  },
+  "methodLevelDualMetric" : {
+    "cr" : {
+      "score" : 0.21713260601337747,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    },
+    "csi" : {
+      "csi_Score" : 0.017143970387687512,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    }
+  },
+  "constantLevelDualMetric" : {
+    "cr" : {
+      "score" : 0.481291263501959,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    },
+    "csi" : {
+      "csi_Score" : 0.30529560515679743,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    }
+  },
+  "operatorLevelDualMetric" : {
+    "cr" : {
+      "score" : 0.7572028486698269,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    },
+    "csi" : {
+      "csi_Score" : 0.3378383027345622,
+      "s1" : null,
+      "s2" : null,
+      "s1_Size" : -1,
+      "s2_Size" : -1
+    }
+  }
+}
