@@ -20,3 +20,7 @@ LLaMA-B: https://drive.google.com/drive/folders/1w-NF9W_eeuCpDXuyTe878X4cgMcTakn
 LLaMA-C: https://drive.google.com/drive/folders/1gHrSSr4j2EpKxX2BxuklOxdCqWElXVhq?usp=share_link
 
 LLaMA-D: https://drive.google.com/drive/folders/1cCGME02vPKdzY4RixVZsdD22WJtsuQ75?usp=share_link
+
+
+## How to run:
+The tool is tested on macOS and Ubuntu 24.04.3 LTS. Using IntelliJ Idea as the IDE is recommended to run the tool.
