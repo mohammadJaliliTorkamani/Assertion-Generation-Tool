@@ -6,6 +6,8 @@ Degree: Ph.D. in Computer Science
 
 Student: Mohammad Jalili Torkamani
 
+Advisor: Dr. Rahul Purandare
+
 University: University of Nebraska–Lincoln (UNL)
 
 November 2025
